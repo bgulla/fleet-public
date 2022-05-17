@@ -1,0 +1,14 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: admin-logging
+  namespace: fleet-default
+spec:
+  repo: https://github.com/bgulla/fleet-public.git
+  branch: main
+  targets:
+  - kubewarden: true
+  paths:
+  - kubewarden/base
+#  - kubewarden/policies
+
