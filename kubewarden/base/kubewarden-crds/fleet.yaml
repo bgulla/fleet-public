@@ -2,4 +2,4 @@ defaultNamespace: kubewarden
 helm:
   releaseName: kubewarden-crds
   repo: https://charts.kubewarden.io
-  chart: kubewarden/kubewarden-crds 
+  chart: kubewarden-crds 
