@@ -9,6 +9,7 @@ spec:
   targets:
   - kubewarden: true
   paths:
-  - kubewarden/base
-#  - kubewarden/policies
+  - kubewarden/base/kubewarden-crds
+  - kubewarden/base/kubewarden-controller
+  - kubewarden/policies/defaults
 
